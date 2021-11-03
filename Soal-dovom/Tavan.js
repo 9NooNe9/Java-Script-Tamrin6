@@ -1,3 +1,5 @@
+//               function that power a number to anther one
+
 const exponent = (baseNumber, power) => {
     if (typeof power !== 'number' || typeof baseNumber !== 'number' || power < 0 || power % 1 !== 0)
         return 'Plz fix your input :)'
